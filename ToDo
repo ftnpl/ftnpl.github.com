@@ -4,10 +4,13 @@ ToDo for ftnpl www
 index.html
  - fix project links
 
-ftninfo.html
-
 ftnplsw.html
+ - split the 'ftn related perl scripts' into two sections, 
+ one for scripts hosted at ftnpl & the other being links
+ to others.
 
+ftninfo.html
+ 
 contact.html - None
 
 robots.txt - None
