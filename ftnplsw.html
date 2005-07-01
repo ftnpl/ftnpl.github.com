@@ -1,120 +1,167 @@
 <html>
-<head>
- <title>FTN Software and Perl</title>
- <meta name="author" content="Robert James Clay">
- <meta name="keywords" content="Perl Fidonet FTN BBS">
- <meta http-equiv="KEYWORDS" content="Perl Fidonet FTN BBS">
- <meta name="description" content="Information and links about using Perl with Fidonet systems. ">
-</head>
-<body bgcolor="#FFFFF0" link="#0000FF" vlink="#FF0000">
+  <head>
+     <title>FTN Software and Perl</title>
+     <meta name="author" content="Robert James Clay">
+     <meta name="keywords" CONTENT="Perl Fidonet FTN BBS">
+     <meta http-equiv="KEYWORDS" CONTENT="Perl, Fidonet, FTN, BBS">
+     <meta name="description" CONTENT="Fidonet(FTN) related Perl scripts/software">
+     <link rel="stylesheet" type="text/css" href="./screen.css" media="screen, tv, projection" title="Default" />
+     <link rel="stylesheet" type="text/css" href="./print.css" media="print" />
+  </head>
+  <body>
 
-<h1 align="CENTER"><a href="ftninfo.html">Fidonet</a>(FTN) related Perl scripts/software</a></h1>
+    <div id="header">
+<!--    
+      <div class="superHeader">
+        <span>Related Sites:</span>
+        <a href="http://www.rocasa.org" title="Information & Links">Info</a> |
+        <a href="http://www.ftngate.net" title="Fidonet/FTN Info">FTN</a>
+      </div>
+-->
+      <div class="midHeader">
+       <h1 class="headerTitle" lang="en">Perl for Fidonet (FTN) Systems</h1>
+        <div class="headerSubTitle" title="Description of page">
+          Fidonet(FTN) related Perl scripts/software 
+        </div>
+      </div>
+<!--
+        <br class="doNotDisplay doNotPrint" />
+        <div class="headerLinks">
+          <span class="doNotDisplay">Tools:</span>
+          <a href="./index2.html">view an alternative layout &laquo;</a>
+          <span class="doNotDisplay">|</span>
+          <a style="cursor: help;" title="Thanks to CSS, this page is already printer friendly!">printer-friendly version &laquo;</a>
+        </div>
+      </div>
+-->
+      <div class="subHeader">
+        <span class="doNotDisplay">Navigation:</span>
+        <a href="./index.html">Home</a> |
+        <a href="./ftnplsw.html#scrpts">Scripts</a> |
+        <a href="./ftnplsw.html#apps">Apps</a> |
+        <a href="./ftnplsw.html#ftnpllinks">Links</a> |
+        <a href="./ftninfo.html">FTN</a> |
+        <a href="./contact.html">Contact Us</a> 
+      </div>
+    </div>
 
-<p>
-<ul>
-  <li>Fidonet related Perl <A href="#scrpts"> scripts </A> hosted here at ftnpl.sf.net.
-  <li>Fidonet related Perl <A href="#ftnpllinks"> Links</A>, etc.
-  <li>Fidonet related <A href="#apps">Applications </A> that can or do use Perl.
-</ul>
-</p>
+    <div id="mainbody">
+      <div class="rowOfBoxes">
+        <div class="fullWidth">
 
-<hr>
-<h3><a name="scrpts">Fidonet related Perl scripts<a></h3>
+        <ul>
+          <li>Fidonet related Perl <a href="#scrpts"> scripts </a> hosted here at ftnpl.sf.net.
+          <li>Fidonet related Perl <a href="#ftnpllinks"> Links</a>, etc.
+          <li>Fidonet related <a href="#apps">Applications </a> that can or do use Perl.
+        </ul>
 
-<dl>
-  <dt>Nodelist</dt>
-  <dd><b>nl2sql</b>:  nl2sql.pl v1.x   Standalone Perl script for loading the information into a fidonet/FTN nodelist MySQL database.</dd>
-  <dd><b>nl2db</b>:  nl2db.pl v0.x This version will use the (yet to be developed) FTN::Nodelist module to load the information in an FTN nodelist into a MySQL database.</dd>
-  <dd><b>ftnplnl</b> - FTN::Nodelist - Perl module for reading FTN nodelists.  (to be developed)</dd>
+        <hr>
+        <h3><a name="scrpts">Fidonet related Perl scripts</a></h3>
 
-  <dt>Packet</dt>
-  <dd><b>pkt2txt</b> - pkt2txt.pl - Perl script to read FTN packets & output text files for the included messages</dd>
-  <dd><b>pkt2html</b> - pkt2html.pl - Perl script to read FTN packets & output html files for the included messages</dd>
-  <dd><b>ftnplpkt</b> - FTN::Packet - Perl module for reading/writing FTN packets.  (to be developed)</dd>
+        <ul>Nodelist
+          <li><b>nl2sql</b>:  nl2sql.pl v1.x   Standalone Perl script for loading the information into a fidonet/FTN nodelist MySQL database.</li>
+          <li><b>nl2db</b>:  nl2db.pl v0.x This version will use the (yet to be developed) FTN::Nodelist module to load the information in an FTN nodelist into a MySQL database.</li>
+          <li><b>ftnplnl</b> - FTN::Nodelist - Perl module for reading FTN nodelists.  (to be developed)</li>
+	</ul>
 
-  <dt>Tick</dt>
-  <dd><b>ftnpltic</b> - FTN::Tick - Perl module for processing FTN Tick files.  (to be developed)</dd>
+        <ul>Packet
+          <li><b>pkt2txt</b> - pkt2txt.pl - Perl script to read FTN packets & output text files for the included messages</li>
+          <li><b>pkt2html</b> - pkt2html.pl - Perl script to read FTN packets & output html files for the included messages</li>
+          <li><b>ftnplpkt</b> - FTN::Packet - Perl module for reading/writing FTN packets.  (to be developed)</li>
+	</ul>
+        
+        <ul>Tick
+          <li><b>ftnpltic</b> - FTN::Tick - Perl module for processing FTN Tick files.  (to be developed)</li>
+	</ul>
 
-  <dt>SRIF</dt>
-  <dd><b>srifpl</b> - srif.pl - Perl module for processing SRIF files for file requests.</dd>
+        <ul>SRIF
+          <li><b>srifpl</b> - srif.pl - Perl module for processing SRIF files for file requests.</li>
+	</ul>
   
-  <dt>Utilities</dt>
-  <dd><b>ftnplutl</b> - FTN::Utility - Perl module for miscellaneous FTN utility routines.  (to be developed)</dd>
+        <ul>Utilities
+          <li><b>ftnplutl</b> - FTN::Utility - Perl module for miscellaneous FTN utility routines.  (to be developed)</li>
+	</ul>
 
-  <dt>BBS</dt>
-  <dd><b>bbsdbpl</b> - Perl scripts for an FTN compatible BBS, with the message base being held in a MySQL Database.  </dd>
+        <ul>BBS
+          <li><b>bbsdbpl</b> - Perl scripts for an FTN compatible BBS, with the message base being held in a MySQL Database.  </li>
+	</ul>
   
-  <dt>BBBS</dt>
-  <dd><b>mrtgbbbs</b> - mrtgbbbs.pl - Perl script for reading the mrtg info from the BBBS standard port.</dd>
-  <dd><b>descadd</b> - descadd.pl - Perl script to add File area descriptions from the FDN list into your BBBS filedirg.000 file.</dd>
-  <dd><b>indexer</b> - indexer.pl - Perl script to generate web pages for bbbs file directories.</dd>
-  <dd><b>ticmsg</b> - ticmsg.pl - Perl script to sort & organize file lists for posting.</dd>
+        <ul>BBBS
+          <li><b>mrtgbbbs</b> - mrtgbbbs.pl - Perl script for reading the mrtg info from the BBBS standard port.</li>
+          <li><b>descadd</b> - descadd.pl - Perl script to add File area descriptions from the FDN list into your BBBS filedirg.000 file.</li>
+          <li><b>indexer</b> - indexer.pl - Perl script to generate web pages for bbbs file directories.</li>
+          <li><b>ticmsg</b> - ticmsg.pl - Perl script to sort & organize file lists for posting.</li>
+	</ul>
 
-  <dt>Husky Project</dt>
-  <dd><b>hpt2sql</b> - Perl scripts for using an SQL database with a Fidonet/FTN compatible Fidonet Tosser/Scanner, HPT from the Husky project.  This version uses only the Perl hooks in HPT, standard Perl, & a MySQL database.</dd>
+        <ul>Husky Project
+          <li><b>hpt2sql</b> - Perl scripts for using an SQL database with a Fidonet/FTN compatible Fidonet Tosser/Scanner, HPT from the Husky project.  This version uses only the Perl hooks in HPT, standard Perl, & a MySQL database.</li>
+	</ul>
   
-  <dt><a href="http://maximus.sourceforge.net">Maximus </a></dt> BBS
-  <dd><b>af4max</b> - Perl script which will produce a list of all files available for download from the file areas of a Maximus bulletin board system.  Runs under Linux, DOS, OS/2 and Windows. (GNU GPL)</dd>
+        <ul><a href="http://maximus.sourceforge.net">Maximus </a> BBS
+          <li><b>af4max</b> - Perl script which will produce a list of all files available for download from the file areas of a Maximus bulletin board system.  Runs under Linux, DOS, OS/2 and Windows. (GNU GPL)</li>
+  	</ul>
+
+        <hr width="100%">
+
+        <h3><a name="ftnpllinks">Fidonet related Perl Links</a></h3>
+
+        <ul>The vented spleen BBS
+           <li>Dos/Windows and Fidonet related Perl files</li>
+           <li>Freq'able at Fidonet 1:249/139</li>
+        </ul>
+
+        <ul>A Perl::JAM Module, by Johann Billings
+           <li><a href="http://www.df.lth.se/~billing/jamlib.html"> http://www.df.lth.se/~billing/jamlib.html</a>:  Link is at botton of page.</li>
+        </ul>
+
+        <hr>
+
+        <h3><a name="apps">Fidonet Applications and Perl</a></h3>
+
+        <p>The following is a sample listing of Fidonet related Software applications
+        that can use or are already using Perl scripts.</p>
+
+         <ul>Fidogate (<a href="http://www.fidogate.org"> www.fidogate.org</a>)
+          <li>This is a Fidonet - Internet gateway application.</li>
+          <li>Has an extensive set of Perl scripts associated with it.</li>
+          <li>Fidogate (<a href="http://fidogate.sf.net"> fidogate.sf.net</a>) project at SourceForge</li>
+          <li>A Russian version of the Fidogate (<a href="http://rusfidogate.sf.net"> rusfidogate.sf.net</A>) project at SourceForge</li>
+	 </ul>
   
-</dl>
+         <ul>HPT (<a href="http://husky.sourceforge.net/hpt.html"> husky.sourceforge.net/hpt.html</A>)
+          <li>Highly Portable Tosser;  part of the <a href="http://husky.sourceforge.net"> Husky </A>project.</li>
+          <li>Has an extensive set of Perl hooks built into it.</li>
+	 </ul>
+	 
+         <ul>BBBS (<a href="http://www.bbbs.net"> www.bbbs.net</a>)
+          <li>This is a BBS program that is available for many different platforms, 
+             and while it has it's own scripting language it can also be set up to
+             use Perl.</li>
+	 </ul>
 
-<hr width="100%">
+        </dl>
 
-<h3><a name="ftnpllinks">Fidonet related Perl Links<a></h3>
+        </div>
+      </div>
 
-<dl>
- <dt>The vented spleen BBS</dt>
-   <dd>Dos/Windows and Fidonet related Perl files</dd>
-   <dd>Freq'able at Fidonet 1:249/139</dd>
-</dl>
+    </div>
+    
+    <div id="footer">
+	<table width="100%">
+	 <tr><td>
 
-<dl>
- <dt>A Perl::JAM Module, by Johann Billings</dt>
-   <dd><a href="http://www.df.lth.se/~billing/jamlib.html"> http://www.df.lth.se/~billing/jamlib.html</a>:  Link is at botton of page.</dd>
-</dl>
+	 <a href="http://sourceforge.net">
+	 <img src="http://sourceforge.net/sflogo.php?group_id=29063&type=1"
+	  width="88" height="31" border="0" alt="SourceForge Logo"></a>
 
+	 </td><td align="right">
+	  <font size="-2">Copyright &copy; 2001-2005 Robert James Clay</font>
+<!--	  Any comments, suggestions, questions, etc. about this or
+	   any other page at this site; please feel free to
+	    <a href="contact.html">contact</a> one of us. -->
+	 </td></tr)
+	</table>
+    </div>
 
-<hr>
-
-<h3><a name="apps">Fidonet Applications and Perl<a></h3>
-
-<p>The following is a sample listing of Fidonet related Software applications
-that can use or are already using Perl scripts.</p>
-
-
-<dl>
-
- <dt>Fidogate (<A href="http://www.fidogate.org"> www.fidogate.org</A>)</dt>
-  <dd>This is a Fidonet - Internet gateway application.</dd>
-  <dd>Has an extensive set of Perl scripts associated with it.</dd>
-  <dd>Fidogate (<A href="http://fidogate.sf.net"> fidogate.sf.net</A>) project at SourceForge</dd>
-  <dd>A Russian version of the Fidogate (<A href="http://rusfidogate.sf.net"> rusfidogate.sf.net</A>) project at SourceForge</dd>
-  
- <dt>HPT (<A href="http://husky.sourceforge.net/hpt.html"> husky.sourceforge.net/hpt.html</A>)</dt>
-  <dd>Highly Portable Tosser;  part of the <A href="http://husky.sourceforge.net"> Husky </A>project.</dd>
-  <dd>Has an extensive set of Perl hooks built into it.</dd>
-
- <dt>BBBS (<A href="http://www.bbbs.net"> www.bbbs.net</A>)</dt>
-  <dd>This is a BBS program that is available for many different platforms, 
-     and while it has it's own scripting language it can also be set up to
-     use Perl.</dd>
-
-</dl>
-
-
-<hr width="100%">
-<P align="center">
-[<A HREF ="index.html">Home</A>]
-<hr width="100%">
-
-  Any comments, suggestions, questions, etc. about this or
-   any other page at this site; please feel free to <a href=
-   "contact.html">contact</a> one of us.
-
-<p align="center">
- <font size="-2">Copyright &copy;2001-2005 Robert J. Clay</font>
-</p>
-
-</body>
+  </body>
 </html>
-
