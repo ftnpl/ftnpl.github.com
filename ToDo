@@ -6,13 +6,22 @@ index.html
 
 ftnplsw.html
  - add link to home page
- - split this into separate pages?
- - add sourceforge icon link?
+ - split this into separate pages
 
 ftninfo.html
- - add sourceforge icon link?
+ - None
    
 contact.html
+ - None
+
+screen.css
+ - change color defines to hex
+ - change color palette to something different
+
+print.css
+ - None
+
+robots.txt
  - None
 
 robots.txt
