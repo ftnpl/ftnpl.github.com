@@ -33,7 +33,7 @@ a {
 }
 
 a:hover {
-  color: #7590AE;
+  color: #A68C53;
   text-decoration: none;
 }
 
@@ -168,7 +168,7 @@ dd {
 }
 
 #mainbody h1 {
-  color: #7590AE;
+  color: #A68C53;
   background-color: transparent;
   font-family: "trebuchet ms", verdana, helvetica, arial, sans-serif;
   font-size: 200%;
@@ -204,7 +204,7 @@ dd {
 }
 
 .newsHeading:hover {
-  color: #7590AE;
+  color: #A68C53;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -236,7 +236,7 @@ dd {
 }
 
 .more a:hover {
-  color: #7590AE;
+  color: #A68C53;
   text-decoration: none;
 }
 
