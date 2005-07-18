@@ -2,21 +2,30 @@ ToDo for ftnpl www
 -------------------
 
 index.html
- - fix project links
+ - fix project links:  mailing lists
 
-ftnplsw.html
- - add link to home page
- - split this into separate pages
+modules.html
+ - change from ul to dl?
 
-ftninfo.html
+scripts.html
+ - None
+
+applications.html
+ - None
+
+links.html
+ - None
+
+information.html
  - None
    
 contact.html
  - None
 
 screen.css
- - change color defines to hex
- - change color palette to something different
+ - add h2,h3 define - like h1 
+ - find better color for "<a hover", "<h1 hover", etc. ?
+
 
 print.css
  - None
@@ -24,8 +33,6 @@ print.css
 robots.txt
  - None
 
-robots.txt
- - None
 
 
  
