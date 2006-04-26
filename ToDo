@@ -2,16 +2,19 @@ ToDo for ftnpl www
 -------------------
 
 index.html
+ - add fidoring webring linking
  - fix project links:  mailing lists
 
 modules.html
  - change from ul to dl?
-
+ - add FTN:JAM module, to be based on the existing bbsdbpl
+ 
 scripts.html
- - None
+ - add info about another script;  ftn2pbb - ftn 2 phpbb2 perl scripts,
+ starting point to be the existing bbsdbpl
 
 applications.html
- - None
+ - Add app BinkD, which now has perl hooks
 
 links.html
  - None
@@ -33,6 +36,6 @@ print.css
 robots.txt
  - None
 
+general
+- add favicon.ico file
 
-
- 
