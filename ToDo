@@ -2,7 +2,6 @@ ToDo for ftnpl www
 -------------------
 
 index.html
- - add fidoring webring linking
  - fix project links:  mailing lists
 
 modules.html
@@ -14,13 +13,14 @@ scripts.html
  starting point to be the existing bbsdbpl
 
 applications.html
- - Add app BinkD, which now has perl hooks
+ - None
 
 links.html
  - None
 
 information.html
- - None
+ - add 'dog /w diskette' gif to page?  Or just use it for fidoring
+ link in index page?
    
 contact.html
  - None
@@ -29,7 +29,6 @@ screen.css
  - add h2,h3 define - like h1 
  - find better color for "<a hover", "<h1 hover", etc. ?
 
-
 print.css
  - None
 
@@ -37,5 +36,6 @@ robots.txt
  - None
 
 general
-- add favicon.ico file
+- None
+
 
