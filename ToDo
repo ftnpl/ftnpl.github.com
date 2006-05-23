@@ -2,15 +2,7 @@ ToDo for ftnpl www
 -------------------
 
 index.html
- - fix project links:  mailing lists
-
-modules.html
- - change from ul to dl?
- - add FTN:JAM module, to be based on the existing bbsdbpl
- 
-scripts.html
- - add info about another script;  ftn2pbb - ftn 2 phpbb2 perl scripts,
- starting point to be the existing bbsdbpl
+ - add filler pp to extend left side line down?
 
 applications.html
  - None
@@ -22,6 +14,24 @@ information.html
  - add 'dog /w diskette' gif to page?  Or just use it for fidoring
  link in index page?
    
+scripts.html
+ - add info about another script;  ftn2pbb - ftn 2 phpbb2 perl scripts,
+ starting point to be the existing bbsdbpl
+
+modules.html
+ - change from ul to dl?
+ - add FTN:JAM module, to be based on the existing PERL::JAM module ?
+ 
+ftnpladx.html
+ftnplinb.html
+ftnpllog.html
+ftnplnl.html
+ftnplout.html
+ftnplpkt.html
+ftnplsrf.html
+ftnpltic.html
+ftnplutl.html
+
 contact.html
  - None
 
@@ -37,5 +47,4 @@ robots.txt
 
 general
 - None
-
 
