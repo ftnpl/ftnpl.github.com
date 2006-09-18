@@ -1,6 +1,11 @@
 ToDo for ftnpl www
 -------------------
 
+- add new ftnplcvs.html page, to include info about cvs at sf
+& at ftn.rocasa.us.  also any other sites (if any)
+- figure a way to add a white (dashed?) line between the primary
+& secondary menus on pages like modules.html.
+
 index.html
  - add filler pp to extend left side line down?
 
@@ -15,11 +20,11 @@ information.html
  link in index page?
    
 scripts.html
- - add info about another script;  ftn2pbb - ftn 2 phpbb2 perl scripts,
+ - add info about another script;  ftn2pbb - ftn to phpbb2 perl scripts,
  starting point to be the existing bbsdbpl
 
 modules.html
- - change from ul to dl?
+ - add links at module name (like at "ftnpladx")
  - add FTN:JAM module, to be based on the existing PERL::JAM module ?
  
 ftnpladx.html
