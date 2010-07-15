@@ -1,8 +1,6 @@
 ToDo for ftnpl www
 -------------------
 
-- add new ftnplcvs.html page, to include info about cvs at sf
-& at ftn.rocasa.us.  also any other sites (if any)
 - figure a way to add a white (dashed?) line between the primary
 & secondary menus on pages like modules.html.
 
@@ -24,9 +22,6 @@ scripts.html
  starting point to be the existing bbsdbpl
 
 modules.html
- - add links at module name (like at "ftnpladx")
- - add FTN:JAM module, to be based on the existing PERL::JAM module ?
- 
 ftnpladx.html
 ftnplinb.html
 ftnpllog.html
