@@ -1,6 +1,5 @@
-#robots.txt for ftnpl.sourceforge.net
+#robots.txt for ftnpl.github.com
 
 User-agent: *
-Disallow: /cgi-bin
 
 
